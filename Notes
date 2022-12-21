@@ -1,0 +1,9 @@
+Page Object Model
+    - Design pattern to implement your framework
+
+Pages
+    - Each page will be a class
+    - The __init__ method will have the locators
+    - We will create methods for each action using the elements on the page.
+
+
