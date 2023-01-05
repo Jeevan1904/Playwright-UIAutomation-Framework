@@ -1,7 +1,9 @@
 from playwright.sync_api import Playwright, expect
 
 from page_objects.login.login_page import LoginPage
-# from page_objects.login.login_page import login_page
+
+#from page_objects.login.login_page import LoginPage
+#from page_objects.login import login_page
 
 def test_login(page):
     browser = Playwright.chromium.launch(headless=False, slowmo = 1000)
