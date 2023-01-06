@@ -7,4 +7,4 @@ class LoginPage:
 
     def redirect_to_login_form(self):
         self.login_button.click()
-        return LoginPageRedirect
+        return LoginPageRedirect(self.page)
