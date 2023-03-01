@@ -24,4 +24,4 @@ class LoginPageRedirect:
         self.enter_username(user_name=credentials['user_name'])
         self.enter_password(password=credentials['password'])
         self.sign_in_button.click()
-        return HomePage
+        return HomePage(self.page)
